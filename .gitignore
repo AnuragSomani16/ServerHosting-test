@@ -1,0 +1,48 @@
+# Built artifacts
+bin/
+gen/
+out/
+build/
+.gradle/
+
+# IDE files
+.idea/
+*.iml
+*.iws
+*.ipr
+.project
+.classpath
+.settings/
+.nbprojects/
+.externalNativeBuild/
+.cxx/
+captures/
+
+# Local configuration file (contains sensitive info like SDK paths)
+local.properties
+
+# Log files
+*.log
+
+# Android Studio / IntelliJ
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/nav/
+.idea/assetWizardSettings.xml
+
+# Keystore files
+*.jks
+*.keystore
+
+# Google Services file (if you want to keep it private)
+# google-services.json
+
+# External native build
+.externalNativeBuild
+.cxx
+
+# OS-specific files
+.DS_Store
+Thumbs.db

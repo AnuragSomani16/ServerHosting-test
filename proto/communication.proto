@@ -15,3 +15,7 @@ message ChatMessage {
 message MessageResponse {
     bool success = 1;
 }
+
+message Status{
+    bool online = 1;
+}

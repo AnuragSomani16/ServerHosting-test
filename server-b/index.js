@@ -64,5 +64,4 @@ const grpcClient = new proto.ChatService(
     'localhost:50051',
     grpc.credentials.createInsecure()
 );
-
 console.log('[Server B] WebSocket server running on port 3002');
