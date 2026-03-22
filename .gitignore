@@ -1,0 +1,14 @@
+# Node
+node_modules/
+package-lock.json
+
+# Android
+AndroidApp/.gradle/
+AndroidApp/app/build/
+AndroidApp/build/
+AndroidApp/local.properties
+
+# IDE
+.idea/
+*.iml
+.DS_Store
