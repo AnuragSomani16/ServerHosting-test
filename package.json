@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "@grpc/grpc-js": "^1.14.3",
+    "@grpc/proto-loader": "^0.8.0",
+    "concurrently": "^9.2.1",
+    "ws": "^8.20.0"
+  },
+  "name": "serverhosting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:a": "node server-a/index.js",
+    "start:b": "node server-b/index.js",
+    "start:both": "concurrently \"npm run start:a\" \"npm run start:b\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
