@@ -7,6 +7,7 @@ AndroidApp/.gradle/
 AndroidApp/app/build/
 AndroidApp/build/
 AndroidApp/local.properties
+*.apk
 
 # IDE
 .idea/
